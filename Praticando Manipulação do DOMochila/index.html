@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mochila_DOM</title>
+  </head>
+  <body>
+    <script src="scripts/index.js"></script>
+
+    <h1>Mochila do Aventureiro das Galáxias</h1>
+    <br />
+    <h2>Apenas aquilo que for essencial</h2>
+
+    <form id="AddingItem">
+      <p>
+        <label>Nome do item: </label>
+        <input id="ItemName" type="text" name="name" />
+      </p>
+
+      <p>
+        <label>Quantidade: </label>
+        <input id="ItemQuantity" type="text" name="quantity" />
+      </p>
+
+      <p>
+        <label>Tipagem do item: </label>
+        <input id="ItemType" type="text" name="type" />
+      </p>
+
+      <button type="button" onclick="addItem()">Adicionar</button>
+      <hr />
+    </form>
+
+    <ol id="new-item"></ol>
+  </body>
+</html>
